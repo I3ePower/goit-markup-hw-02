@@ -1,0 +1,122 @@
+:root 
+{
+    --color-background: #FFF;
+    --color-text-in-web-and-button: #4d5ae5;
+    --color-text-in-menu-adress-h3: #2E2F42;
+    --color-in-text-in-p: #434455;
+    --color-actv-button-and-hover: rgba(64,75,191,1);
+    --border-button: rgba(244,244,253,1);
+    --background--button: rgba(231, 233, 252, 1);
+    --drop-shadow: rgba(0,0,0,0.12);
+
+}
+.fillter-button
+{
+    border-radius: 4px;
+    border: 1px solid;
+    color: var(--color-text-in-web-and-button);
+    background: var(--background--button);
+    letter-spacing: 0.64px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.fillter-button:focus,
+.fillter-button:hover,
+.fillter-button:active 
+{
+    color: rgba(255,255,255,1);
+    background: var(--color-actv-button-and-hover);
+    border-radius: 4px;
+    letter-spacing: 0.64px;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: var(--drop-shadow);
+}
+
+.fillter-order-button
+{
+    color:#FFF;
+    background:#4d5ae5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+}
+.fillter-link:focus,
+.fillter-link:hover,
+.fillter-link:active
+{
+    color: var(--color-actv-button-and-hover);
+     
+}
+
+.body
+{
+    font-family: "Roboto", sans-serif;
+    background-color: var(--color-background);
+}
+
+.fillter-order-service
+{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+    color: rgba(255,255,255,1);
+}
+
+.fillter-list
+{
+    color: var(--color-text-in-menu-adress-h3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0,4px;
+}
+
+.fillter-text
+{
+    color: var(--color-in-text-in-p);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.fillter-footer
+{
+    color: rgba(244, 244, 253, 1);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.fillter-logo
+{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.fillter-WEB
+{
+    color: var(--color-text-in-web-and-button);
+}
+
+.fillter-STUDIO
+{
+    color: #2E2F42;
+}
+
+.header
+{
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height:111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
