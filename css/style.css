@@ -48,6 +48,8 @@
 .fillter-link:active
 {
     color: var(--color-actv-button-and-hover);
+    text-decoration: none;
+    
      
 }
 
