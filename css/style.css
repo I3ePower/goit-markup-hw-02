@@ -1,6 +1,6 @@
 :root 
 {
-    --color-background: #FFF;
+    --color-background: #FFFFFF;
     --color-text-in-web-and-button: #4d5ae5;
     --color-text-in-menu-adress-h3: #2E2F42;
     --color-in-text-in-p: #434455;
@@ -19,6 +19,8 @@
     letter-spacing: 0.64px;
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 }
 
 .fillter-button:focus,
@@ -36,26 +38,51 @@
 
 .fillter-order-button
 {
-    color:#FFF;
+    color:#FFFFFF;
     background:#4d5ae5;
+    font-family:"Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 150%;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    text-align: center;
+    
 }
+
+.fillter-order-button-active,
+.fillter-prder-button-hover,
+.fillter-order-button:focus
+{
+    background-color: #404bbf;
+}
+
+.fillter-link 
+{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text-in-menu-adress-h3);
+
+}
+.fillter-link:active
 .fillter-link:focus,
 .fillter-link:hover,
 .fillter-link:active
 {
-    color: var(--color-actv-button-and-hover);
+    color: #404bbf;
     text-decoration: none;
-    
+    list-style: none;
+
      
 }
 
 .body
 {
     font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: var(--color-background);
 }
 
@@ -64,8 +91,11 @@
     font-size: 56px;
     font-weight: 700;
     line-height: 107.143%;
+    text-align: center;
     letter-spacing: 1.12px;
     color: rgba(255,255,255,1);
+    background-color: #2E2F42;
+
 }
 
 .fillter-list
@@ -87,30 +117,36 @@
 
 .fillter-footer
 {
+    font-family: "Raleway", sans-serif;
     color: rgba(244, 244, 253, 1);
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.32px;
+    background-color: #2E2F42;
 }
 
-.fillter-logo
+.fillter-WEB
 {
+    color: var(--color-text-in-web-and-button);
     font-family: "Raleway";
     font-size: 18px;
     font-weight: 800;
     line-height: 116.667%;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-}
-
-.fillter-WEB
-{
-    color: var(--color-text-in-web-and-button);
+    text-decoration: none;
 }
 
 .fillter-STUDIO
 {
-    color: #2E2F42;
+    color: var(--color-text-in-menu-adress-h3);
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .header
@@ -121,4 +157,43 @@
     line-height:111.111%;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
+    color:#2E2F42;
+}
+
+.contacts-and-list
+{
+    font-style: normal;
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-in-text-in-p);
+}
+
+.section-one
+{
+    background-color: #2E2F42;
+}
+
+.section-two
+{
+    background-color: #f4f4fd;
+    font-style: normal;
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-in-text-in-p);
+
+}
+
+.section-two-li-bckgrd
+{
+    background-color: #FFFFFF;
+}
+
+.logo-without-decoration
+{
+    text-decoration: none;
 }
