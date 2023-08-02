@@ -137,9 +137,21 @@
     text-decoration: none;
 }
 
+.fillter-STUDIO-header
+{
+    color: #2E2F42;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 .fillter-STUDIO
 {
-    color: var(--color-text-in-menu-adress-h3);
+    color: #f4f4fd;
     font-family: "Raleway";
     font-size: 18px;
     font-weight: 800;
