@@ -125,7 +125,7 @@
     letter-spacing: 0.32px;
 }
 
-.fillter-WEB
+.fillter-web
 {
     color: var(--color-text-in-web-and-button);
     font-family: "Raleway";
@@ -137,7 +137,7 @@
     text-decoration: none;
 }
 
-.fillter-STUDIO-header
+.fillter-studio-header
 {
     color: var(--color-text-in-menu-adress-h3);
     font-family: "Raleway";
@@ -149,7 +149,7 @@
     text-decoration: none;
 }
 
-.fillter-STUDIO
+.fillter-studio
 {
     color: var(--border-button-and-text);
     font-family: "Raleway";
