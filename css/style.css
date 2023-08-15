@@ -10,6 +10,25 @@
     --drop-shadow: rgba(0,0,0,0.12);
 
 }
+
+h1, h2, h3, h4, h5, h6, p
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li
+{
+    list-style-type: none;
+}
+
 .fillter-button
 {
     font-family: "Roboto";
@@ -127,6 +146,7 @@
 
 .fillter-web
 {
+    width: 44px;
     color: var(--color-text-in-web-and-button);
     font-family: "Raleway";
     font-size: 18px;
@@ -139,6 +159,7 @@
 
 .fillter-studio-header
 {
+    width: 71px;
     color: var(--color-text-in-menu-adress-h3);
     font-family: "Raleway";
     font-size: 18px;
@@ -151,6 +172,7 @@
 
 .fillter-studio
 {
+    width: 71px;
     color: var(--border-button-and-text);
     font-family: "Raleway";
     font-size: 18px;
@@ -179,7 +201,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-in-text-in-p);
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .contacts-list:active,
@@ -217,7 +239,52 @@
     text-decoration: none;
 }
 
-.ul 
+.container
 {
-    list-style-type: none;
-}    
+    max-width: 1158px;
+    margin-inline: 0 auto;
+    padding-inline: 0 15px;
+}
+
+.header-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper > nav > menu
+{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.header-wrapper > nav
+{
+    display: flex;
+    gap: 76px;
+}
+
+.header-wrapper > address
+{
+    display: flex;
+    gap: 669px;
+}
+
+.contact
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    gap: 40px;
+}
+
+.logo
+{
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 156px;
+}
